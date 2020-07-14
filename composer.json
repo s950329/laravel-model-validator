@@ -20,12 +20,5 @@
         "psr-4": {
             "ModelValidator\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LeoChien\\ModelValidator\\ServiceProvider"
-            ]
-        }
     }
 }
