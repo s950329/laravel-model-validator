@@ -1,0 +1,26 @@
+<?php
+
+namespace {{namespace}};
+
+use ModelValidator\ModelValidator;
+use App\{{model}};
+
+class {{class}} extends ModelValidator
+{
+    protected ${{model_camel}};
+
+        public function __construct({{model}} ${{model_camel}})
+        {
+            $this->{{model_camel}} = ${{model_camel}};
+        }
+
+        protected function getData()
+        {
+            return $this->{{model_camel}}->toArray();
+        }
+
+        protected function getRules()
+        {
+            return [];
+        }
+}

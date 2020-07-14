@@ -1,0 +1,24 @@
+{
+    "name": "leochien/laravel-model-validator",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leochien",
+            "email": "s950329@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ModelValidator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeoChien\\ModelValidator\\ServiceProvider"
+            ]
+        }
+    }
+}
